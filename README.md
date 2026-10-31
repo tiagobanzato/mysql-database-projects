@@ -1,28 +1,38 @@
-# Projetos de Banco de Dados: Modelagem e Administração com MySQL
+# Database Projects: Design and Administration with MySQL
 
-> Compilação de projetos acadêmicos focados no design, implementação e gerenciamento de bancos de dados relacionais com MySQL.
+> A collection of academic projects focused on designing, implementing and managing relational databases with MySQL.
 
-## 1. Descrição dos Projetos
+## Projects
 
-### Projeto 1: Sistema de Delivery (Modelagem de Dados)
-* Desenvolvimento de um banco de dados do zero para um sistema de delivery, a partir de requisitos de negócio.
-* **Processo:**
-    1.  Criação do **Modelo Conceitual** (BrModelo).
-    2.  Desenvolvimento do **Modelo Lógico** (MySQL Workbench).
-    3.  Implementação do **Modelo Físico** (DDL - `CREATE TABLE`).
-* Incluiu a criação de `INSERTs` e `SELECTs` para consulta de status.
+### Project 1: Delivery System (Data Modelling)
+* Designed a database from scratch for a delivery system, starting from business requirements.
+* **Process:**
+  1. Built the **conceptual model** (BrModelo).
+  2. Developed the **logical model** (MySQL Workbench).
+  3. Implemented the **physical model** (DDL, `CREATE TABLE`).
+* Also included `INSERT` statements and `SELECT` queries to check order status.
 
-### Projeto 2: Loja de Vinhos (Implementação e Administração)
-* Implementação de um banco de dados existente, focando na manipulação e segurança dos dados.
-* **Atividades:**
-    1.  **DML:** População das tabelas (`INSERT INTO`).
-    2.  **DQL:** Escrita de consultas complexas com `JOIN` entre 3 tabelas.
-    3.  **DCL:** Criação de um usuário (`Somellier`) com permissões de acesso restritas (`GRANT SELECT`) e limites de recursos.
+### Project 2: Wine Shop (Implementation and Administration)
+* Implemented an existing database model, focusing on data manipulation and security.
+* **Tasks:**
+  1. **DML:** populated the tables (`INSERT INTO`).
+  2. **DQL:** wrote complex queries with `JOIN` across 3 tables.
+  3. **DCL:** created a user (`Somellier`) with restricted access (`GRANT SELECT`) and resource limits.
 
-## 3. Tecnologias Utilizadas
+## Tech stack
 
 * MySQL
 * SQL (DDL, DML, DQL, DCL)
-* Modelagem de Dados (Conceitual, Lógico, Físico)
+* Data modelling (conceptual, logical, physical)
 * MySQL Workbench
 * BrModelo
+
+> The project files (zip) contain the original coursework, written in Portuguese.
+
+## Author
+
+**Tiago Banzato**  
+Software developer · Dublin, Ireland
+
+[![GitHub](https://img.shields.io/badge/GitHub-tiagobanzato-black?logo=github)](https://github.com/tiagobanzato)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-banzato-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/banzato)
